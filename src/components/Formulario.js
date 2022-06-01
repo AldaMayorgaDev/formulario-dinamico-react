@@ -184,10 +184,10 @@ class Formulario extends React.Component{
 	render(){
 		return(
 			<React.Fragment>
-
+				<div className="container-form">
 				<div className="container" style={{marginTop:"30px"}}>
 					<div className="row">
-						<div className="col-sm-3">
+						<div className="col-sm-2">
 							<p><b>Agregar campo</b></p>
 							<div className="row">
 								<div className="col-sm-12">
@@ -201,7 +201,7 @@ class Formulario extends React.Component{
 								</div>
 							</div>
 						</div>
-						<div className="col-sm-9">
+						<div className="col-sm-7">
 							<form>
 							{
 								this.state.campos.map(campo => {
@@ -238,7 +238,7 @@ class Formulario extends React.Component{
 						</div>
 					</div>
 				</div>
-
+				</div>
 			</React.Fragment>
 		);
 	}
