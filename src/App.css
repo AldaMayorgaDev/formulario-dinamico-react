@@ -62,3 +62,7 @@
   display: flex !important;
   align-items: center !important;
 }
+
+.container-form{
+  justify-content: space-between;
+}
